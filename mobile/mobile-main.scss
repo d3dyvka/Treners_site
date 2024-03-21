@@ -1,0 +1,88 @@
+$imageWidth: 320px; // width of the background image
+$imageHeight: 799px; // height of the background image
+
+.background-container{
+  width: $imageWidth;
+  height: $imageHeight;
+}
+.hero {
+  text-align: center;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+body {
+  background-color: #0C1417;
+  font-family: "Montserrat", sans-serif;
+}
+
+.bomba {
+  margin-left: 70px;
+}
+
+.Edventages {
+  margin-top: -100px;
+  margin-left: 20px;
+}
+
+.text2 {
+  height: 56px;
+  width: 232px;
+  text-align: center;
+  margin: 20px;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.women {
+  image-rendering: pixelated;
+  margin-left: 15px;
+  margin-top: 50px;
+  height: 406px;
+  width: 290px;
+}
+
+.gantelya {
+  image-rendering: pixelated;
+  margin-left: 15px;
+  margin-top: 20px;
+  height: 406px;
+  width: 290px;
+}
+
+.block-2 {
+  h2 {
+    margin: 20px;
+    font-size: 25px;
+    line-height: 34px;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+  }
+
+  p {
+    margin-top: 30px;
+    margin-left: 15px;
+    height: 182px;
+    text-align: justify;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: white;
+  }
+}
+
+.logo {
+  image-rendering: pixelated;
+}
+ .button {
+    text-decoration: none;
+    color:white;
+
+    &:hover {
+      color: chocolate;
+      transition: 0.7s;
+    }
+  }
